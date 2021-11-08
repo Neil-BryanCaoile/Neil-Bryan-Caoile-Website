@@ -1,0 +1,371 @@
+@media (max-width: 64em) {
+  html {
+    font-size: 52.6%;
+  }
+
+  .section-hero {
+    padding: 4.6rem 0 12rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-description {
+    max-width: 70rem;
+    margin: auto;
+    margin-bottom: 3.2rem;
+  }
+  .hero-img {
+    margin: auto;
+    width: 63.7%;
+  }
+
+  .hero-img-box {
+    grid-row: 1/2;
+  }
+
+  .program-text {
+    text-align: start;
+  }
+
+  .hero-text-box {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+  }
+  .sheridan {
+    width: fit-content;
+    margin: 6rem auto;
+    margin-bottom: 3rem;
+  }
+  .program-text-box > .sub-title {
+    text-align: center;
+  }
+  .graduation {
+    align-self: center;
+    margin: 0;
+  }
+  .program-name > span {
+    margin: auto;
+    text-align: center;
+  }
+  .program-name-container {
+    padding: 0;
+  }
+  .program-name-container > .btn {
+    align-self: center;
+  }
+  .sub-title {
+    text-align: start;
+  }
+  .section-education .container {
+    grid-template-columns: 1fr;
+  }
+  .school {
+    grid-row: 1/2;
+  }
+  .school img {
+    margin: auto;
+    width: 100%;
+  }
+
+  .school a {
+    overflow: hidden;
+  }
+
+  .work-expirience-text-box {
+    padding-left: 4rem;
+  }
+
+  .work-features {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .feature:nth-of-type(2) .work-description {
+    margin-left: auto;
+  }
+  .work-description {
+    max-width: 42rem;
+  }
+  .feature {
+    max-width: 500rem;
+  }
+  .feature:nth-of-type(2) {
+    text-align: right;
+  }
+  .work-facts {
+    gap: 3.2rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translate(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 4rem;
+    color: #0b0f18;
+    font-weight: 700;
+  }
+
+  .copyright {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+  }
+
+  .company > img {
+    display: block;
+  }
+  .logo-footer {
+    padding-right: 0;
+  }
+  .project-portfolio-title {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 55em) {
+  footer > .container {
+    display: block;
+  }
+
+  .work-facts {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .company > img {
+    margin: auto;
+  }
+  .work-role {
+    text-align: center;
+  }
+
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading-primary {
+    font-size: 7rem;
+  }
+  .footer-details {
+    text-align: center;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .footer-title {
+    text-align: center;
+  }
+  .logo-footer a {
+    max-width: 59rem;
+  }
+  .logo-footer a img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 38em) {
+  .work-experience-img > img {
+    height: 19rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 48.6%;
+    margin-bottom: 1.4rem;
+  }
+  .section-work-experience > .container {
+    display: block;
+  }
+
+  .work-expirience-title {
+    font-size: 4rem;
+    margin-bottom: 4.2rem;
+  }
+  .company > img {
+    width: 10.8rem;
+  }
+  .work-role {
+    font-size: 3.7rem;
+    text-align: center;
+  }
+
+  .program-name-container {
+    padding-right: 0;
+  }
+  .work-expirience-text-box {
+    padding-left: 0;
+  }
+  .work-experience-img {
+    overflow: hidden;
+  }
+  .work-feature-title {
+    font-size: 3.4rem;
+  }
+  .feature > ion-icon {
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-bottom: -1.8rem;
+  }
+  .work-feature-title {
+    margin-bottom: 1rem;
+  }
+  .sheridan {
+    margin-bottom: 2rem;
+  }
+
+  .program-name > span {
+    font-size: 4rem;
+  }
+  .graduation {
+    justify-content: center;
+  }
+  .program-name-container > .btn {
+    align-self: center;
+  }
+}
+
+@media (max-width: 31em) {
+  .heading-primary,
+  .project-portfolio-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .hero {
+    gap: 2.6rem;
+  }
+  .btn--full {
+    margin-bottom: 1.6rem;
+  }
+  .sheridan {
+    margin: 3rem auto;
+  }
+  .section-hero {
+    padding-bottom: 6rem;
+  }
+  .project-container:nth-of-type(1) .video {
+    margin-top: 3rem;
+  }
+  .project-title {
+    font-size: 3.1rem;
+    margin-bottom: 1.7rem;
+  }
+  .portfolio-text-box > .sub-title {
+    font-size: 1.5rem;
+  }
+  .program-name > span {
+    font-size: 2.8rem;
+  }
+  .program-text-box > .sub-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 23em) {
+  .company > img {
+    margin: auto;
+  }
+}
+
+@media (max-width: 19em) {
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .hero {
+    gap: 2.6rem;
+  }
+}
+
+/* ************************* */
+/* FIXING SAFARI FLEXBOX */
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .delivered-faces {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .meal-attribute:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .meal-icon {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+}

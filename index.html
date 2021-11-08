@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Neil Bryan Caoile Personal Website. Contains all coding project of Neil Bryan Caoile">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Quicksand:wght@400;600&display=swap"
+    rel="stylesheet"
+    />
+    <!-- Favicons -->
+    <link rel="icon" href="./img/logos/favicon-64.png">
+    <link rel="apple-touch-icon" href="./img/logos/favicon-180.png">
+    <link rel="manifes" href="manifes.webmanifest">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Neil Bryan Caoile &mdash; Personal Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          src="./img/logos/caoile-logo.png"
+          alt="Neil-Bryan Caoile Logo"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#portfolio">Projects</a></li>
+          <li><a class="main-nav-link" href="#education">Education</a></li>
+          <li><a class="main-nav-link" href="#experience">Experience</a></li>
+          <li><a class="main-nav-link" href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Neil Bryan Caoile</h1>
+            <p class="hero-description">
+              Coding is my creative purpose. Providing quality service to people
+              by making their lives simpler through designing aesthetically
+              interactive websites is my passion
+            </p>
+            <a class="btn btn--full margin-right-sm" href="#">Email me</a>
+            <a
+              class="btn btn--outline"
+              href="./files/neil-bryan-caoile-resume-2021.pdf"
+              >Download CV <ion-icon name="download"></ion-icon></a
+            >
+            <div class="sheridan">
+              <a
+                class="program-link"
+                href="https://www.sheridancollege.ca/programs/computer-systems-technology-software-development-and-network-engineering"
+              >
+                <div class="sheridan-logo-img">
+                  <img
+                    src="./img/logos/sheridan-logo.png"
+                    alt="Sheridan College logo"
+                  />
+                </div>
+                <span class="program-text">
+                  <span class="sub-title">ADVANCED DIPLOMA</span>
+                  Software Development and Network Engineering</span
+                >
+              </a>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp">
+              <source srcset="img/hero.avif" type="image/avif">
+              <source srcset="img/hero.png" type="image/png">
+              <img class="hero-img" src="img/hero.avif" alt="My picture" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-project-portfolio">
+        <div class="container">
+          <h2 class="project-portfolio-title">Project Porfolio</h2>
+          <!-- Voting Poll -->
+          <section class="project-container">
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/kmOufCwYi_A"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="portfolio-text-box">
+              <span class="sub-title">SPRING BOOT</span>
+              <h3 class="project-title">Voting Poll</h3>
+              <p class="project-description">
+                Developed an application that allows a user to respond to a poll
+                of their choice, then show them the results of the poll they
+                took. It displays a list of all available poll titles in a
+                dropdown list so that the user can choose one by clicking a
+                button. The user is then taken to a second page to take the poll
+                by seeing the options, selecting their choice by clicking a
+                button. After recording the user’s response to the poll, it will
+                take them to a third page where they can see the following
+                information for the poll that they took.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Neil-BryanCaoile/Poll.git"
+                  class="icon"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </div>
+            </div>
+          </section>
+          <!-- Registration Page -->
+          <section class="project-container">
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Gu1VExYH0P0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="portfolio-text-box">
+              <span class="sub-title">WEB DEVELOPMENT</span>
+              <h3 class="project-title">Registration Page</h3>
+              <p class="project-description">
+                Constructed a registration page using JavaScript. Each input has
+                built-in constraints that should be followed for a user to
+                register. Constraints such as username must have a minimum of 6
+                letters, the password must be matching when verified and all
+                inputs must be filled out.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Neil-BryanCaoile/Registration-Page.git"
+                  class="icon"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://caoilen.dev.fast.sheridanc.on.ca/Registration%20Page/registration-page/"
+                  >Registration Page &rarr;</a
+                >
+              </div>
+            </div>
+          </section>
+          <!-- Sword Market -->
+          <section class="project-container">
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/DKc6j1HZyPs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="portfolio-text-box">
+              <span class="sub-title">WEB DEVELOPMENT</span>
+              <h3 class="project-title">Sword Market</h3>
+              <p class="project-description">
+                The project brings together both client-side and server-side
+                programming. The user selects between short and long swords and
+                gives a name and a price for the sword. The data gathered are
+                stored in a MySQL database. Users can search the name of their
+                swords and print out appropriate searches input.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Neil-BryanCaoile/Sword-Market.git"
+                  class="icon"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://caoilen.dev.fast.sheridanc.on.ca/Sword-Inventory-main/"
+                  >Sword Market &rarr;</a
+                >
+              </div>
+            </div>
+          </section>
+
+          <!-- Timhorton's  Order Page -->
+          <section class="project-container">
+            <div class="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/22oMcR6bqAQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="portfolio-text-box">
+              <span class="sub-title">WEB DEVELOPMENT</span>
+              <h3 class="project-title">Timhorton's Order Page</h3>
+              <p class="project-description">
+                Designed a dynamic web app, manipulating its HTML DOM using
+                client-side programming languages JavaScript and PHP. This page
+                asks for the user's coffee order. Inputs have constraints to be
+                followed. If an order is successful it will land users on a page
+                showing users orders through images and calculates the total
+                cost of the order.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Neil-BryanCaoile/Timhorton-s-Order-Page.git"
+                  class="icon"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://caoilen.dev.fast.sheridanc.on.ca/tim-horton-order-page/"
+                  >Order page &rarr;</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section-education">
+        <div class="container">
+          <!-- Program -->
+          <div class="program-name-container">
+            <div class="sheridan">
+              <a
+                class="program"
+                href="https://www.sheridancollege.ca/programs/computer-systems-technology-software-development-and-network-engineering"
+              >
+                <p class="program-text-box">
+                  <span class="sub-title">ADVANCED DIPLOMA</span>
+
+                  <span class="program-name">
+                    <span>Software Development</span>
+                    <span>& Network Engineering</span>
+                  </span>
+                </p>
+              </a>
+            </div>
+
+            <em class="graduation"
+              ><ion-icon class="calendar" name="calendar"></ion-icon> 2021 -
+              anticipated</em
+            >
+
+            <a class="btn btn--full" href="./files/neilbryancaoile-transcript-2021.pdf">Download Transcript <ion-icon name="download"></ion-icon></a>
+          </div>
+
+          <!-- School -->
+          <div class="school">
+            <a href="https://www.sheridancollege.ca/"
+              ><img
+                src="https://www.sheridancollege.ca/-/media/project/sheridan/shared/images/program-pages/program-index/campus/trafalgar-road-campus-sheridan-college.jpg?w=1024&hash=66D68093280EDF8B40E6433BAE1951AC"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-work-experience">
+        <div class="container">
+          <div class="work-experience-img">
+            <img src="./img/gallery/work-expirience-img.jpg" alt="" />
+          </div>
+
+          <div class="work-expirience-text-box">
+            <h2 class="work-expirience-title">Experience</h2>
+            <div class="company">
+              <img
+                src="./img/logos/timhortons-logo.png"
+                alt="timhortons-logo"
+              />
+              <h3 class="work-role">Storefront Team Member</h3>
+              <p class="work-facts">
+                <span class="work-date">August 2017 - March 2020</span>
+                <span class="work-location">Mississauga, ON</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="work-features">
+            <div class="feature">
+              <ion-icon name="heart"></ion-icon>
+              <h4 class="work-feature-title">Personal Service</h4>
+              <p class="work-description">
+                Knowledge of principles and processes for providing customer and
+                personal services
+              </p>
+            </div>
+            <div class="feature">
+              <ion-icon name="volume-mute"></ion-icon>
+              <h4 class="work-feature-title">Active Listening</h4>
+              <p class="work-description">
+                Giving full attention to customers, understanding points being
+                made, asking the right questions.
+              </p>
+            </div>
+            <div class="feature">
+              <ion-icon name="fastforward"></ion-icon>
+              <h4 class="work-feature-title">Fast environment</h4>
+              <p class="work-description">
+                Able to maintain quality work under pressure and keep up with
+                demands
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="logo-footer">
+          <a href="#">
+            <img
+              src="./img/logos/caoile-logo-footer.png"
+              alt="Caoile Logo White"
+            />
+          </a>
+          <p class="copyright">
+            Copyright © <span class="year"></span> by Neil Bryan Caoile. All rights reserved
+          </p>
+        </div>
+
+        <div class="footer-info">
+          <div class="info">
+            <h2 class="footer-title">Contact</h2>
+            <div class="footer-details">
+              <li>
+                <div class="footer-icon"><ion-icon name="pin"></ion-icon></div>
+                4065 Brickstone Mews Mississauga ON
+              </li>
+              <li>
+                <div class="footer-icon"><ion-icon name="call"></ion-icon></div>
+                416-7817-414
+              </li>
+              <li>
+                <div class="footer-icon"><ion-icon name="mail"></ion-icon></div>
+                caoilen@sheridancollege.ca
+              </li>
+            </div>
+          </div>
+          <hr class="hr" />
+          <div class="info">
+            <h2 class="footer-title">Social</h2>
+            <div class="footer-details">
+              <li>
+                <a href="https://www.linkedin.com/in/neil-bryan-caoile/">
+                  <div class="footer-icon"><ion-icon name="logo-linkedin"></ion-icon></ion-icon></div>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/neilbryan.caoile17/">
+                  <div class="footer-icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></div>
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCaJ7o2snk3z9LQxHrwQGclg">
+                  <div class="footer-icon"><ion-icon name="logo-instagram"></ion-icon></ion-icon></div>
+                  Youtube
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <p class="bro">
+          To my beloved brother who always motivate me. May your soul rest in
+          peace. I love you.
+        </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

@@ -496,7 +496,7 @@ Project Portfolio */
 
 .section-work-experience > .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
   padding-bottom: 12rem;
@@ -525,7 +525,8 @@ Project Portfolio */
 .work-facts {
   display: flex;
   justify-content: space-between;
-  font-size: 2em;
+  font-size: 3em;
+  padding: 3rem 0;
 }
 
 .work-expirience-text-box {
@@ -708,4 +709,4 @@ Greys
 #333
 #555
 #fff
- */ ;
+ */

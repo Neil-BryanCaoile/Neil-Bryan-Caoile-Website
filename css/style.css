@@ -19,8 +19,18 @@ body {
 }
 
 p,
-span {
+span,
+.description {
   font-family: "Quicksand", sans-serif;
+}
+ul {
+  padding-left: 0 !important;
+}
+
+.description {
+  font-size: 2rem;
+  line-height: 1.6;
+  padding-left: 1.6rem;
 }
 /* ******************* */
 /* GENERAL REUSABLE COMPONENTS*/
@@ -28,13 +38,13 @@ span {
 
 .heading-primary {
   /* Font */
-  font-size: 9rem;
+  font-size: 5.5rem;
   line-height: 1.05;
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #2d3445;
-
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .margin-right-sm {
@@ -226,6 +236,10 @@ span {
   transition: all 0.5s;
 }
 
+.program-text > .sub-title {
+  font-size: 1.7rem;
+}
+
 .info:nth-of-type(1) .footer-details {
   flex-direction: column;
   gap: 3.2rem;
@@ -275,7 +289,7 @@ span {
   display: block;
   font-family: "Cormorant", serif;
   font-weight: 700;
-  font-size: 0.5em;
+  font-size: 2.2em;
   letter-spacing: 3.1px;
   margin-bottom: 0.4rem;
 }
@@ -292,11 +306,11 @@ span {
 Project Portfolio */
 
 .project-portfolio-title {
-  font-size: 7rem;
+  font-size: 5rem;
   color: #2d3445;
   font-weight: 500;
   text-align: center;
-  margin: 6rem 0 12rem;
+  margin: 6rem 0 0;
   letter-spacing: -0.2rem;
   font-weight: 600;
 }
@@ -312,8 +326,8 @@ Project Portfolio */
 }
 
 .project-title {
-  font-size: 5rem;
-  margin-bottom: 3.6rem;
+  font-size: 3.9rem;
+  margin-bottom: 0.6rem;
   color: #2d3445;
   letter-spacing: 0.1rem;
   border-left: solid 2.7 px #2d3445;
@@ -394,7 +408,8 @@ Project Portfolio */
 .section-education {
   background-color: #e8e8ea;
   margin-top: 12rem;
-  padding: 12rem 0;
+  padding-top: 3rem;
+  padding-bottom: 12rem;
 }
 
 .section-education .program-text {
@@ -414,24 +429,23 @@ Project Portfolio */
   width: 100%;
 }
 
-.program-name > span {
+.program-name {
   font-family: "Cormorant" !important;
   display: block;
   width: fit-content;
   border-bottom: solid transparent 1px;
   color: #2d3445;
   font-weight: 600;
-
   transition: all 0.5s;
 }
 
-.program-name:hover > span {
+.program-name:hover {
   border-bottom: solid #0b0f18 1px;
   color: #0b0f18;
 }
 
 .program-text-box {
-  font-size: 5rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -499,10 +513,7 @@ Project Portfolio */
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  padding-bottom: 12rem;
-  padding-top: 12rem;
-
-  row-gap: 12rem;
+  padding: 5rem 0;
 }
 
 .work-experience-img > img {

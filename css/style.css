@@ -704,6 +704,15 @@ li {
   display: block;
 }
 
+.video-embed {
+  text-align: center;
+}
+
+.video-embed > iframe {
+  margin-top: 1rem;
+  margin: 2.8rem auto;
+}
+
 /*
 
 Primary      #0b0f18
